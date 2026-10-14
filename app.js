@@ -479,7 +479,7 @@ document.getElementById("btn-generate").addEventListener("click", async () => {
   const quizTitle = document.getElementById("quiz-title-input").value.trim() || "Kibertəhlükəsizlik Quiz";
 
   // Validate API key
-  if (!apiKey || apiKey === "BURAYA_API_KEY_YAZIN" || apiKey.length < 15) {
+  if (!apiKey || apiKey === "AQ.Ab8RN6J_PkKH-XG49W-KLTx4zmb1_vps_lJZbvsASoBZ8K-WfQ" || apiKey.length < 15) {
     toast("API key koda daxil edilməyib! app.js faylında HARDCODED_API_KEY dəyişənini yeniləyin.", "error", 6000);
     return;
   }
